@@ -2,9 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "react-bootstrap";
 import "./scss/main.scss";
-import App from "./App.js";
+import App from "./App";
+import "./scss/main.scss";
 
-ReactDOM.render(
-  <React.StrictMode></React.StrictMode>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
