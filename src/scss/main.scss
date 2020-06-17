@@ -5,9 +5,7 @@ body {
   background-color: rgb(118, 118, 189);
   color: aliceblue;
 }
-
-#top {
-  width: 5rem;
-  height: 10rem;
-  background-color: black;
+.imgBox {
+  display: flex;
+  margin-top: 5rem;
 }
